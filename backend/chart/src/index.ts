@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 app.use(express.json()); 
 
-app.use("/api/v1", chatRoutes)
+app.use("/api/v1", chatRoutes);
 
 
 const port = process.env.PORT || 5002;
